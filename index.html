@@ -57,9 +57,11 @@
             margin-bottom: 50px;
         }
         h2 {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #1d2671;
             margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
         }
         ul {
             list-style: none;
@@ -71,21 +73,23 @@
             padding: 20px;
             border-radius: 15px;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-            font-size: 1.1em;
+            font-size: 1.15em;
         }
-        .cta {
+        .calendly-button {
             display: inline-block;
             background: linear-gradient(to right, #ff512f, #dd2476);
             color: #fff;
-            padding: 15px 40px;
+            padding: 20px 50px;
             border-radius: 50px;
             text-decoration: none;
-            font-size: 1.2em;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            font-size: 1.3em;
+            font-weight: bold;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.3);
             transition: transform 0.3s ease;
+            margin-top: 30px;
         }
-        .cta:hover {
-            transform: scale(1.05);
+        .calendly-button:hover {
+            transform: scale(1.08);
         }
         footer {
             background: linear-gradient(to right, #141e30, #243b55);
@@ -107,7 +111,7 @@
     <nav>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#schedule">Schedule</a>
     </nav>
     
     <div class="container">
@@ -127,20 +131,10 @@
             <p>Located in Sterling Heights, MI, NimbleResolve empowers businesses with secure, scalable, and innovative IT solutions. Our approach blends expertise with personal attention, ensuring your technology runs smoothly — while you focus on what matters most: growing your business. We don't just support technology; we enable your vision.</p>
         </section>
         
-        <section id="contact">
-            <h2>Contact NimbleResolve</h2>
-            <p>Email: <a href="mailto:info@nimbleresolve.com">info@nimbleresolve.com</a></p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Office: Sterling Heights, MI</p>
-            <a href="mailto:info@nimbleresolve.com" class="cta">Request Consultation</a>
-        </section>
-        
         <section id="schedule">
-            <h2>Schedule a Meeting</h2>
-            <!-- Calendly inline widget begin -->
+            <h2>Schedule a Consultation</h2>
             <div class="calendly-inline-widget" data-url="https://calendly.com/nimbleresolve/30min?primary_color=a400ff" style="min-width:320px;height:700px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
         </section>
     </div>
     
